@@ -1,0 +1,105 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP MAX14921ECS+
+D MAXIM INTEGRATED PRODUCTS - MAX14921ECS+ - ANALOGUE FRONT END DEVICE, TQFP-80
+K
+F http://pdfserv.maximintegrated.com/package_dwgs/21-0072.PDF
+$ENDCMP
+#
+$CMP MAX17853ACB_V+
+D 14-Channel High-Voltage Data-Acquisition System, LQFP-64
+K
+F https://pdfserv.maximintegrated.com/en/ds/MAX17853.pdf
+$ENDCMP
+#
+$CMP TLI4971A075T5UE0001XUMA1
+D Infineon TLI4971A075T5UE0001XUMA1
+K
+F https://www.infineon.com/dgdl/Infineon-TLI4971_25_50_75_120-DataSheet-v01_30-EN.pdf?fileId=5546d462700c0ae6017034d731621b09
+$ENDCMP
+#
+$CMP MAX6126B50+
+D Maxim MAX6126B50+, Series Voltage Reference 5V, 0.1% 12.6 V max., 8-Pin uMAX
+K
+F https://componentsearchengine.com/Datasheets/2/MAX6126B50+.pdf
+$ENDCMP
+#
+$CMP MAX11163EUB+
+D MAXIM INTEGRATED PRODUCTS - MAX11163EUB+ - ADC, 1-CH, SAR, 16BIT, 250KSPS, UMAX-10
+K
+F http://datasheets.maximintegrated.com/en/ds/MAX11163.pdf
+$ENDCMP
+#
+$CMP 35362-1250
+D Headers & Wire Housings 12 Ckt Vert. Hdr. Sherlock W-T-B
+K
+F https://www.molex.com/pdm_docs/sd/353621250_sd.pdf
+$ENDCMP
+#
+$CMP 35362-0550
+D Molex 35362 Series, 2mm Pitch 5 Way 1 Row Straight PCB Header, Solder Termination, 2A
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00031605.pdf
+$ENDCMP
+#
+$CMP 22-23-2031
+D 2.54mm,header,KK,vert,Sn,frictn lock,3w Molex KK 254 Series, Series Number 6373, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole, Solder Termination
+K
+F http://www.molex.com/webdocs/datasheets/pdf/en-us//0022232031_PCB_HEADERS.pdf
+$ENDCMP
+#
+$CMP ERJ3EKF3011V
+D Thick Film Chip Resistor 0.1W 0603 3K01 Panasonic E96 Series Precision Thick Film Surface Mount Resistor 0603 Case 3.01k +/-1% 0.1W +/-100ppm/C
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf
+$ENDCMP
+#
+$CMP CL21A106KOQNNNE
+D Samsung Electro-Mechanics 0805 (2012M) 10uF MLCC 16V dc +/-10% SMD CL21A106KOQNNNE
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/0289c6d4f30f89b64e7dd5b6a9ee99f0.pdf
+$ENDCMP
+#
+$CMP GRM1885C1H472JA01D
+D Ceramic Capacitor 4700pF 50V NP0 0603 Murata 4700pF Multilayer Ceramic Capacitor (MLCC) 50 V dc +/-5% COG dielectric GRM SMT max op. temp. +125C
+K
+F https://psearch.en.murata.com/capacitor/product/GRM1885C1H472JA01%23.html
+$ENDCMP
+#
+$CMP CL05B104KO5NNNC
+D Samsung Electro-Mechanics CL05B104KO5NNNC 100nF Multilayer Ceramic Capacitor MLCC 16V dc +/-10% Tolerance SMD
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2408147.pdf
+$ENDCMP
+#
+$CMP CL31B105KCHNNNE
+D CAP, 1, 100V, +/-10%, X7R, 1206
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA8/2461474.pdf
+$ENDCMP
+#
+$CMP 35ZLH100MEFC6.3X11
+D RUBYCON - 35ZLH100MEFC6.3X11 - CAP, ALU ELEC, 100UF, 35V, RAD
+K
+F https://componentsearchengine.com/Datasheets/2/35ZLH100MEFC6.3X11.pdf
+$ENDCMP
+#
+$CMP B5817WS-TP
+D Schottky Diodes & Rectifiers 20V,1A
+K
+F https://www.mouser.co.uk/datasheet/2/258/B5817WS-B5819WS(SOD-323)-V2-1626103.pdf
+$ENDCMP
+#
+$CMP MAX11161EUB+
+D MAXIM INTEGRATED PRODUCTS - MAX11161EUB+ - ADC, 16BIT, 250KSPS, UMAX-10
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX11161.pdf
+$ENDCMP
+#
+#End Doc Library

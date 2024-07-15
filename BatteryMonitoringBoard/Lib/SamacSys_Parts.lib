@@ -1,0 +1,625 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MAX14921ECS+
+#/313119/1012021/2.49/80/4/Integrated Circuit
+DEF MAX14921ECS+ IC 0 30 Y Y 1 F N
+F0 "IC" 2350 600 50 H V L CNN
+F1 "MAX14921ECS+" 2350 500 50 H V L CNN
+F2 "QFP50P1400X1400X120-80N" 2350 400 50 H I L CNN
+F3 "http://pdfserv.maximintegrated.com/package_dwgs/21-0072.PDF" 2350 300 50 H I L CNN
+F4 "MAXIM INTEGRATED PRODUCTS - MAX14921ECS+ - ANALOGUE FRONT END DEVICE, TQFP-80" 2350 200 50 H I L CNN "Description"
+F5 "1.2" 2350 100 50 H I L CNN "Height"
+F6 "Maxim Integrated" 2350 0 50 H I L CNN "Manufacturer_Name"
+F7 "MAX14921ECS+" 2350 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "700-MAX14921ECS+" 2350 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX14921ECS%2b?qs=Vwh6e7toGLhlnKi5DjCusg%3D%3D" 2350 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "" 2350 -400 50 H I L CNN "Arrow Part Number"
+F11 "" 2350 -500 50 H I L CNN "Arrow Price/Stock"
+F12 "" 2350 -600 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 2350 -700 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X CLK 1 0 0 200 R 50 50 0 0 P
+X SDI 2 0 -100 200 R 50 50 0 0 P
+X SDO 3 0 -200 200 R 50 50 0 0 P
+X SAMPL 4 0 -300 200 R 50 50 0 0 P
+X VL 5 0 -400 200 R 50 50 0 0 P
+X DGND 6 0 -500 200 R 50 50 0 0 P
+X T3 7 0 -600 200 R 50 50 0 0 P
+X T2 8 0 -700 200 R 50 50 0 0 P
+X T1 9 0 -800 200 R 50 50 0 0 P
+X AOUT 10 0 -900 200 R 50 50 0 0 P
+X AGND 11 0 -1000 200 R 50 50 0 0 P
+X VA 12 0 -1100 200 R 50 50 0 0 P
+X LDON 13 0 -1200 200 R 50 50 0 0 P
+X VP 14 0 -1300 200 R 50 50 0 0 P
+X CV16 15 0 -1400 200 R 50 50 0 0 P
+X BA16 16 0 -1500 200 R 50 50 0 0 P
+X CT16 17 0 -1600 200 R 50 50 0 0 P
+X CB16 18 0 -1700 200 R 50 50 0 0 P
+X CV15 19 0 -1800 200 R 50 50 0 0 P
+X BA15 20 0 -1900 200 R 50 50 0 0 P
+X CT15 21 300 -2500 200 U 50 50 0 0 P
+X CB15 22 400 -2500 200 U 50 50 0 0 P
+X CV14 23 500 -2500 200 U 50 50 0 0 P
+X BA14 24 600 -2500 200 U 50 50 0 0 P
+X CT14 25 700 -2500 200 U 50 50 0 0 P
+X CB14 26 800 -2500 200 U 50 50 0 0 P
+X CV13 27 900 -2500 200 U 50 50 0 0 P
+X BA13 28 1000 -2500 200 U 50 50 0 0 P
+X CT13 29 1100 -2500 200 U 50 50 0 0 P
+X CB13 30 1200 -2500 200 U 50 50 0 0 P
+X CV12 31 1300 -2500 200 U 50 50 0 0 P
+X BA12 32 1400 -2500 200 U 50 50 0 0 P
+X CT12 33 1500 -2500 200 U 50 50 0 0 P
+X CB12 34 1600 -2500 200 U 50 50 0 0 P
+X CV11 35 1700 -2500 200 U 50 50 0 0 P
+X BA11 36 1800 -2500 200 U 50 50 0 0 P
+X CT11 37 1900 -2500 200 U 50 50 0 0 P
+X CB11 38 2000 -2500 200 U 50 50 0 0 P
+X CV10 39 2100 -2500 200 U 50 50 0 0 P
+X BA10 40 2200 -2500 200 U 50 50 0 0 P
+X BA5 60 2500 0 200 L 50 50 0 0 P
+X CV5 59 2500 -100 200 L 50 50 0 0 P
+X CB6 58 2500 -200 200 L 50 50 0 0 P
+X CT6 57 2500 -300 200 L 50 50 0 0 P
+X BA6 56 2500 -400 200 L 50 50 0 0 P
+X CV6 55 2500 -500 200 L 50 50 0 0 P
+X CB7 54 2500 -600 200 L 50 50 0 0 P
+X CT7 53 2500 -700 200 L 50 50 0 0 P
+X BA7 52 2500 -800 200 L 50 50 0 0 P
+X CV7 51 2500 -900 200 L 50 50 0 0 P
+X CB8 50 2500 -1000 200 L 50 50 0 0 P
+X CT8 49 2500 -1100 200 L 50 50 0 0 P
+X BA8 48 2500 -1200 200 L 50 50 0 0 P
+X CV8 47 2500 -1300 200 L 50 50 0 0 P
+X CB9 46 2500 -1400 200 L 50 50 0 0 P
+X CT9 45 2500 -1500 200 L 50 50 0 0 P
+X BA9 44 2500 -1600 200 L 50 50 0 0 P
+X CV9 43 2500 -1700 200 L 50 50 0 0 P
+X CB10 42 2500 -1800 200 L 50 50 0 0 P
+X CT10 41 2500 -1900 200 L 50 50 0 0 P
+X ~CS 80 300 600 200 D 50 50 0 0 P
+X EN 79 400 600 200 D 50 50 0 0 P
+X CV0 78 500 600 200 D 50 50 0 0 P
+X CT1 77 600 600 200 D 50 50 0 0 P
+X BA1 76 700 600 200 D 50 50 0 0 P
+X CV1 75 800 600 200 D 50 50 0 0 P
+X CB2 74 900 600 200 D 50 50 0 0 P
+X CT2 73 1000 600 200 D 50 50 0 0 P
+X BA2 72 1100 600 200 D 50 50 0 0 P
+X CV2 71 1200 600 200 D 50 50 0 0 P
+X CB3 70 1300 600 200 D 50 50 0 0 P
+X CT3 69 1400 600 200 D 50 50 0 0 P
+X BA3 68 1500 600 200 D 50 50 0 0 P
+X CV3 67 1600 600 200 D 50 50 0 0 P
+X CB4 66 1700 600 200 D 50 50 0 0 P
+X CT4 65 1800 600 200 D 50 50 0 0 P
+X BA4 64 1900 600 200 D 50 50 0 0 P
+X CV4 63 2000 600 200 D 50 50 0 0 P
+X CB5 62 2100 600 200 D 50 50 0 0 P
+X CT5 61 2200 600 200 D 50 50 0 0 P
+P 5 0 1 6 200 400 2300 400 2300 -2300 200 -2300 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MAX17853ACB_V+
+#/11487877/1012021/2.49/64/2/Integrated Circuit
+DEF MAX17853ACB_V+ IC 0 30 Y Y 1 F N
+F0 "IC" 1950 600 50 H V L CNN
+F1 "MAX17853ACB_V+" 1950 500 50 H V L CNN
+F2 "QFP50P1200X1200X160-64N" 1950 400 50 H I L CNN
+F3 "https://pdfserv.maximintegrated.com/en/ds/MAX17853.pdf" 1950 300 50 H I L CNN
+F4 "14-Channel High-Voltage Data-Acquisition System, LQFP-64" 1950 200 50 H I L CNN "Description"
+F5 "1.6" 1950 100 50 H I L CNN "Height"
+F6 "Maxim Integrated" 1950 0 50 H I L CNN "Manufacturer_Name"
+F7 "MAX17853ACB/V+" 1950 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "700-MAX17853ACB/V+" 1950 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX17853ACB-V%2b?qs=Cb2nCFKsA8p%252BeR3tDdnvaQ%3D%3D" 1950 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1950 -400 50 H I L CNN "Arrow Part Number"
+F11 "" 1950 -500 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1950 -600 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1950 -700 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X SHDNL 1 0 0 200 R 50 50 0 0 P
+X AGND_1 2 0 -100 200 R 50 50 0 0 P
+X VAA 3 0 -200 200 R 50 50 0 0 P
+X UARTSEL 4 0 -300 200 R 50 50 0 0 P
+X VDDL1 5 0 -400 200 R 50 50 0 0 P
+X GNDL1 6 0 -500 200 R 50 50 0 0 P
+X ALERTIN 7 0 -600 200 R 50 50 0 0 P
+X GNDL3 8 0 -700 200 R 50 50 0 0 P
+X TXUN/SCLK 9 0 -800 200 R 50 50 0 0 P
+X TXUP/CSB 10 0 -900 200 R 50 50 0 0 P
+X VDDL3 11 0 -1000 200 R 50 50 0 0 P
+X RXUN 12 0 -1100 200 R 50 50 0 0 P
+X RXUP 13 0 -1200 200 R 50 50 0 0 P
+X GNDL2 14 0 -1300 200 R 50 50 0 0 P
+X TXLP/SDO 15 0 -1400 200 R 50 50 0 0 P
+X TXLN/SDI 16 0 -1500 200 R 50 50 0 0 P
+X RXLP 17 300 -2500 200 U 50 50 0 0 P
+X RXLN 18 400 -2500 200 U 50 50 0 0 P
+X VDDL2 19 500 -2500 200 U 50 50 0 0 P
+X ALERTOUT 20 600 -2500 200 U 50 50 0 0 P
+X AUXIN0/GPIO0 21 700 -2500 200 U 50 50 0 0 P
+X AUXIN1/GPIO1 22 800 -2500 200 U 50 50 0 0 P
+X GPIO2/AUXIN2 23 900 -2500 200 U 50 50 0 0 P
+X AUXIN3/GPIO3 24 1000 -2500 200 U 50 50 0 0 P
+X AUXGND 25 1100 -2500 200 U 50 50 0 0 P
+X AUXIN4/GPIO4 26 1200 -2500 200 U 50 50 0 0 P
+X AUXIN5/GPIO5 27 1300 -2500 200 U 50 50 0 0 P
+X AGND_2 28 1400 -2500 200 U 50 50 0 0 P
+X THRM 29 1500 -2500 200 U 50 50 0 0 P
+X C0 30 1600 -2500 200 U 50 50 0 0 P
+X SW0 31 1700 -2500 200 U 50 50 0 0 P
+X C1 32 1800 -2500 200 U 50 50 0 0 P
+X C9 48 2100 0 200 L 50 50 0 0 P
+X SW8 47 2100 -100 200 L 50 50 0 0 P
+X C8 46 2100 -200 200 L 50 50 0 0 P
+X SW7 45 2100 -300 200 L 50 50 0 0 P
+X C7 44 2100 -400 200 L 50 50 0 0 P
+X SW6 43 2100 -500 200 L 50 50 0 0 P
+X C6 42 2100 -600 200 L 50 50 0 0 P
+X SW5 41 2100 -700 200 L 50 50 0 0 P
+X C5 40 2100 -800 200 L 50 50 0 0 P
+X SW4 39 2100 -900 200 L 50 50 0 0 P
+X C4 38 2100 -1000 200 L 50 50 0 0 P
+X SW3 37 2100 -1100 200 L 50 50 0 0 P
+X C3 36 2100 -1200 200 L 50 50 0 0 P
+X SW2 35 2100 -1300 200 L 50 50 0 0 P
+X C2 34 2100 -1400 200 L 50 50 0 0 P
+X SW1 33 2100 -1500 200 L 50 50 0 0 P
+X HV 64 300 600 200 D 50 50 0 0 P
+X CPP 63 400 600 200 D 50 50 0 0 P
+X CPN 62 500 600 200 D 50 50 0 0 P
+X DCIN 61 600 600 200 D 50 50 0 0 P
+X VBLK 60 700 600 200 D 50 50 0 0 P
+X SW14 59 800 600 200 D 50 50 0 0 P
+X C14 58 900 600 200 D 50 50 0 0 P
+X SW13 57 1000 600 200 D 50 50 0 0 P
+X C13 56 1100 600 200 D 50 50 0 0 P
+X SW12 55 1200 600 200 D 50 50 0 0 P
+X C12 54 1300 600 200 D 50 50 0 0 P
+X SW11 53 1400 600 200 D 50 50 0 0 P
+X C11 52 1500 600 200 D 50 50 0 0 P
+X SW10 51 1600 600 200 D 50 50 0 0 P
+X C10 50 1700 600 200 D 50 50 0 0 P
+X SW9 49 1800 600 200 D 50 50 0 0 P
+P 5 0 1 6 200 400 1900 400 1900 -2300 200 -2300 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TLI4971A075T5UE0001XUMA1
+#/14987601/1012021/2.49/14/3/Integrated Circuit
+DEF TLI4971A075T5UE0001XUMA1 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "TLI4971A075T5UE0001XUMA1" 1150 200 50 H V L CNN
+F2 "TLI4971A075T5UE0001XUMA1" 1150 100 50 H I L CNN
+F3 "https://www.infineon.com/dgdl/Infineon-TLI4971_25_50_75_120-DataSheet-v01_30-EN.pdf?fileId=5546d462700c0ae6017034d731621b09" 1150 0 50 H I L CNN
+F4 "Infineon TLI4971A075T5UE0001XUMA1" 1150 -100 50 H I L CNN "Description"
+F5 "1.1" 1150 -200 50 H I L CNN "Height"
+F6 "Infineon" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TLI4971A075T5UE0001XUMA1" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "726-TLI4971A075T5UE1" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/TLI4971A075T5UE0001XUMA1?qs=DRkmTr78QAS6ut1Et506uA%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TLI4971A075T5UE0001XUMA1" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tli4971a075t5ue0001xuma1/infineon-technologies-ag?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1150 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1150 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X VDD_1 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X VREF 3 0 -200 200 R 50 50 0 0 P
+X AOUT 4 0 -300 200 R 50 50 0 0 P
+X OCD1 5 0 -400 200 R 50 50 0 0 P
+X OCD2_1 6 0 -500 200 R 50 50 0 0 P
+X IP-_1 7 0 -600 200 R 50 50 0 0 P
+X IP+_1 8 1300 0 200 L 50 50 0 0 P
+X IP-_2 9 1300 -100 200 L 50 50 0 0 P
+X IP+_2 10 1300 -200 200 L 50 50 0 0 P
+X VDD_2 11 1300 -300 200 L 50 50 0 0 P
+X VDD_3 12 1300 -400 200 L 50 50 0 0 P
+X OCD2_2 13 1300 -500 200 L 50 50 0 0 P
+X OCD2_3 14 1300 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MAX6126B50+
+#/388041/1012021/2.49/8/3/Integrated Circuit
+DEF MAX6126B50+ IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MAX6126B50+" 1050 200 50 H V L CNN
+F2 "SOP65P490X111-8N" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/MAX6126B50+.pdf" 1050 0 50 H I L CNN
+F4 "Maxim MAX6126B50+, Series Voltage Reference 5V, 0.1% 12.6 V max., 8-Pin uMAX" 1050 -100 50 H I L CNN "Description"
+F5 "1.11" 1050 -200 50 H I L CNN "Height"
+F6 "Maxim Integrated" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MAX6126B50+" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "700-MAX6126B50" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX6126B50%2b?qs=GxOUx7aO6nyoqPlMn1TMww%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1050 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1050 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X NR 1 0 0 200 R 50 50 0 0 P
+X IN 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X GNDS 4 0 -300 200 R 50 50 0 0 P
+X I.C._2 8 1200 0 200 L 50 50 0 0 P
+X OUTF 7 1200 -100 200 L 50 50 0 0 P
+X OUTS 6 1200 -200 200 L 50 50 0 0 P
+X I.C._1 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MAX11163EUB+
+#/711513/1012021/2.49/10/4/Integrated Circuit
+DEF MAX11163EUB+ IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MAX11163EUB+" 1050 200 50 H V L CNN
+F2 "SOP50P490X110-10N" 1050 100 50 H I L CNN
+F3 "http://datasheets.maximintegrated.com/en/ds/MAX11163.pdf" 1050 0 50 H I L CNN
+F4 "MAXIM INTEGRATED PRODUCTS - MAX11163EUB+ - ADC, 1-CH, SAR, 16BIT, 250KSPS, UMAX-10" 1050 -100 50 H I L CNN "Description"
+F5 "1.1" 1050 -200 50 H I L CNN "Height"
+F6 "Maxim Integrated" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MAX11163EUB+" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "700-MAX11163EUB+" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX11163EUB%2b?qs=%2F1yZrGN5n%2FWNsbYdX6YgRg%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1050 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1050 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X REF 1 0 0 200 R 50 50 0 0 P
+X VDD 2 0 -100 200 R 50 50 0 0 P
+X AIN+ 3 0 -200 200 R 50 50 0 0 P
+X AIN- 4 0 -300 200 R 50 50 0 0 P
+X GND 5 0 -400 200 R 50 50 0 0 P
+X OVDD 10 1200 0 200 L 50 50 0 0 P
+X SDI 9 1200 -100 200 L 50 50 0 0 P
+X SCLK 8 1200 -200 200 L 50 50 0 0 P
+X SDO 7 1200 -300 200 L 50 50 0 0 P
+X CNVST 6 1200 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 35362-1250
+#/239582/1012021/2.49/12/4/Connector
+DEF 35362-1250 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "35362-1250" 650 200 50 H V L CNN
+F2 "353621250" 650 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/353621250_sd.pdf" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings 12 Ckt Vert. Hdr. Sherlock W-T-B" 650 -100 50 H I L CNN "Description"
+F5 "8.7" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "35362-1250" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-35362-1250" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/35362-1250?qs=hKT1rQ23qvjLS3wcTx5tWQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 650 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 650 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X 1 1 0 -1100 200 R 50 50 0 0 P
+X 2 2 0 -1000 200 R 50 50 0 0 P
+X 3 3 0 -900 200 R 50 50 0 0 P
+X 4 4 0 -800 200 R 50 50 0 0 P
+X 5 5 0 -700 200 R 50 50 0 0 P
+X 6 6 0 -600 200 R 50 50 0 0 P
+X 7 7 0 -500 200 R 50 50 0 0 P
+X 8 8 0 -400 200 R 50 50 0 0 P
+X 9 9 0 -300 200 R 50 50 0 0 P
+X 10 10 0 -200 200 R 50 50 0 0 P
+X 11 11 0 -100 200 R 50 50 0 0 P
+X 12 12 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -1200 200 -1200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 35362-0550
+#/425991/1012021/2.49/5/4/Connector
+DEF 35362-0550 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "35362-0550" 650 200 50 H V L CNN
+F2 "SHDR5W50P0X200_1X5_1230X550X850P" 650 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00031605.pdf" 650 0 50 H I L CNN
+F4 "Molex 35362 Series, 2mm Pitch 5 Way 1 Row Straight PCB Header, Solder Termination, 2A" 650 -100 50 H I L CNN "Description"
+F5 "8.5" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "35362-0550" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-35362-0550" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/35362-0550?qs=hKT1rQ23qvjdrcs3pLkKOQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 650 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 650 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 22-23-2031
+#/238171/1012021/2.49/3/3/Connector
+DEF 22-23-2031 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "22-23-2031" 650 200 50 H V L CNN
+F2 "SHDR3W82P0X254_1X3_747X635X818P" 650 100 50 H I L CNN
+F3 "http://www.molex.com/webdocs/datasheets/pdf/en-us//0022232031_PCB_HEADERS.pdf" 650 0 50 H I L CNN
+F4 "2.54mm,header,KK,vert,Sn,frictn lock,3w Molex KK 254 Series, Series Number 6373, 2.54mm Pitch 3 Way 1 Row Straight PCB Header, Through Hole, Solder Termination" 650 -100 50 H I L CNN "Description"
+F5 "8.18" 650 -200 50 H I L CNN "Height"
+F6 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "22-23-2031" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-22-23-2031" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/22-23-2031?qs=ILqg114nvd41XyIAFDpXfw%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 650 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 650 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ERJ3EKF3011V
+#/692376/1012021/2.49/2/2/Resistor
+DEF ERJ3EKF3011V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERJ3EKF3011V" 550 150 50 H V L CNN
+F2 "ERJ3EK_(0603)" 550 50 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Chip Resistor 0.1W 0603 3K01 Panasonic E96 Series Precision Thick Film Surface Mount Resistor 0603 Case 3.01k +/-1% 0.1W +/-100ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "Panasonic" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "ERJ3EKF3011V" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -850 50 H I L CNN "Arrow Price/Stock"
+F12 "" 550 -950 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 550 -1050 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CL21A106KOQNNNE
+#/952628/1012021/2.49/2/3/Capacitor
+DEF CL21A106KOQNNNE C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "CL21A106KOQNNNE" 350 150 50 H V L CNN
+F2 "CAPC2012X140N" 350 50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/0289c6d4f30f89b64e7dd5b6a9ee99f0.pdf" 350 -50 50 H I L CNN
+F4 "Samsung Electro-Mechanics 0805 (2012M) 10uF MLCC 16V dc +/-10% SMD CL21A106KOQNNNE" 350 -150 50 H I L CNN "Description"
+F5 "1.4" 350 -250 50 H I L CNN "Height"
+F6 "SAMSUNG" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CL21A106KOQNNNE" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "187-CL21A106KOQNNNE" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21A106KOQNNNE?qs=349EhDEZ59qKIX0T0PKtPw%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "CL21A106KOQNNNE" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/cl21a106koqnnne/samsung-electro-mechanics?region=nac" 350 -850 50 H I L CNN "Arrow Price/Stock"
+F12 "" 350 -950 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 350 -1050 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model GRM1885C1H472JA01D
+#/623199/1012021/2.49/2/2/Capacitor
+DEF GRM1885C1H472JA01D C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GRM1885C1H472JA01D" 350 150 50 H V L CNN
+F2 "CAPC1608X90N" 350 50 50 H I L CNN
+F3 "https://psearch.en.murata.com/capacitor/product/GRM1885C1H472JA01%23.html" 350 -50 50 H I L CNN
+F4 "Ceramic Capacitor 4700pF 50V NP0 0603 Murata 4700pF Multilayer Ceramic Capacitor (MLCC) 50 V dc +/-5% COG dielectric GRM SMT max op. temp. +125C" 350 -150 50 H I L CNN "Description"
+F5 "0.9" 350 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "GRM1885C1H472JA01D" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "81-GRM1885C1H472JA1D" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM1885C1H472JA01D?qs=e4Xae8FWUKn%2FMRcWxYvfaQ%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "GRM1885C1H472JA01D" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/grm1885c1h472ja01d/murata-manufacturing" 350 -850 50 H I L CNN "Arrow Price/Stock"
+F12 "" 350 -950 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 350 -1050 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CL05B104KO5NNNC
+#/563787/1012021/2.49/2/3/Capacitor
+DEF CL05B104KO5NNNC C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "CL05B104KO5NNNC" 350 150 50 H V L CNN
+F2 "CAPC1005X55N" 350 50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2408147.pdf" 350 -50 50 H I L CNN
+F4 "Samsung Electro-Mechanics CL05B104KO5NNNC 100nF Multilayer Ceramic Capacitor MLCC 16V dc +/-10% Tolerance SMD" 350 -150 50 H I L CNN "Description"
+F5 "0.55" 350 -250 50 H I L CNN "Height"
+F6 "SAMSUNG" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CL05B104KO5NNNC" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "187-CL05B104KO5NNNC" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "CL05B104KO5NNNC" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/cl05b104ko5nnnc/samsung-electro-mechanics?region=nac" 350 -850 50 H I L CNN "Arrow Price/Stock"
+F12 "" 350 -950 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 350 -1050 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CL31B105KCHNNNE
+#/646605/1012021/2.49/2/3/Capacitor
+DEF CL31B105KCHNNNE C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "CL31B105KCHNNNE" 350 150 50 H V L CNN
+F2 "CAPC3216X180N" 350 50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA8/2461474.pdf" 350 -50 50 H I L CNN
+F4 "CAP, 1, 100V, +/-10%, X7R, 1206" 350 -150 50 H I L CNN "Description"
+F5 "1.8" 350 -250 50 H I L CNN "Height"
+F6 "SAMSUNG" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "CL31B105KCHNNNE" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "187-CL31B105KCHNNNE" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL31B105KCHNNNE?qs=349EhDEZ59qH1i3RhF2lug%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "CL31B105KCHNNNE" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/cl31b105kchnnne/samsung-electro-mechanics?region=europe" 350 -850 50 H I L CNN "Arrow Price/Stock"
+F12 "" 350 -950 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 350 -1050 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 35ZLH100MEFC6.3X11
+#/368562/1012021/2.49/2/4/Capacitor Polarised
+DEF 35ZLH100MEFC6.3X11 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "35ZLH100MEFC6.3X11" 350 150 50 H V L CNN
+F2 "CAPPRD250W50D680H1250" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/35ZLH100MEFC6.3X11.pdf" 350 -50 50 H I L CNN
+F4 "RUBYCON - 35ZLH100MEFC6.3X11 - CAP, ALU ELEC, 100UF, 35V, RAD" 350 -150 50 H I L CNN "Description"
+F5 "12.5" 350 -250 50 H I L CNN "Height"
+F6 "Rubycon" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "35ZLH100MEFC6.3X11" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "232-35ZLH100MEFC63X1" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Rubycon/35ZLH100MEFC63X11?qs=T3oQrply3y8xzyooRx3RZg%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "35ZLH100MEFC6.3X11" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/35zlh100mefc6.3x11/rubycon?region=nac" 350 -850 50 H I L CNN "Arrow Price/Stock"
+F12 "" 350 -950 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 350 -1050 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model B5817WS-TP
+#/576697/1012021/2.49/2/3/Schottky Diode
+DEF B5817WS-TP D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "B5817WS-TP" 500 250 50 H V L CNN
+F2 "SOD2512X115N" 500 150 50 H I L CNN
+F3 "https://www.mouser.co.uk/datasheet/2/258/B5817WS-B5819WS(SOD-323)-V2-1626103.pdf" 500 50 50 H I L CNN
+F4 "Schottky Diodes & Rectifiers 20V,1A" 500 -50 50 H I L CNN "Description"
+F5 "1.15" 500 -150 50 H I L CNN "Height"
+F6 "Micro Commercial Components (MCC)" 500 -250 50 H I L CNN "Manufacturer_Name"
+F7 "B5817WS-TP" 500 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "833-B5817WS-TP" 500 -450 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/B5817WS-TP?qs=SdqRYZZ9IxCAZAlW9BKhPg%3D%3D" 500 -550 50 H I L CNN "Mouser Price/Stock"
+F10 "B5817WS-TP" 500 -650 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/b5817ws-tp/micro-commercial-components?region=europe" 500 -750 50 H I L CNN "Arrow Price/Stock"
+F12 "" 500 -850 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 500 -950 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MAX11161EUB+
+#/711505/1012021/2.49/10/3/Integrated Circuit
+DEF MAX11161EUB+ IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MAX11161EUB+" 1050 200 50 H V L CNN
+F2 "SOP50P490X110-10N" 1050 100 50 H I L CNN
+F3 "https://datasheets.maximintegrated.com/en/ds/MAX11161.pdf" 1050 0 50 H I L CNN
+F4 "MAXIM INTEGRATED PRODUCTS - MAX11161EUB+ - ADC, 16BIT, 250KSPS, UMAX-10" 1050 -100 50 H I L CNN "Description"
+F5 "1.1" 1050 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MAX11161EUB+" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "700-MAX11161EUB+" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX11161EUB%2b?qs=%2F1yZrGN5n%2FV%252Bwv4smMr3Tg%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MAX11161EUB+" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/max11161eub/maxim-integrated?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1050 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1050 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X REF 1 0 0 200 R 50 50 0 0 P
+X VDD 2 0 -100 200 R 50 50 0 0 P
+X AIN+ 3 0 -200 200 R 50 50 0 0 P
+X AIN- 4 0 -300 200 R 50 50 0 0 P
+X GND 5 0 -400 200 R 50 50 0 0 P
+X OVDD 10 1200 0 200 L 50 50 0 0 P
+X SDI 9 1200 -100 200 L 50 50 0 0 P
+X SCLK 8 1200 -200 200 L 50 50 0 0 P
+X SDO 7 1200 -300 200 L 50 50 0 0 P
+X CNVST 6 1200 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
