@@ -1,4 +1,4 @@
-# Lithium-Battery-Research-Rig
+# Lithium Battery Research Rig
 University project development of a rig for 18650 lithium battery testing and research.   
 End goal is an EV simulation rig for researching EV battery health and performance.   
 Created by Aleksandar Zdravkov and Indra Erkens   
